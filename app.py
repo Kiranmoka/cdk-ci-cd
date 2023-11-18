@@ -26,6 +26,4 @@ AwsCodepipelineStack(app, "AwsCodepipelineStack",
     # For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
     )
 cdk.Tags.of(app).add(key='feature',value='resource_stack')
-cdk.Tags.of(app).add(key='contact',value='abc@againabc.com')
-cdk.Tags.of(app).add(key='team',value='best_team')
 app.synth()
